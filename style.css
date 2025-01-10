@@ -3,8 +3,20 @@
     margin: 0;
 }
 
+main {
+    background-color: rgb(17, 16, 16);
+}
+
 nav {
     background-color: rgb(17, 16, 16);
+}
+
+label {
+    color: white;
+}
+
+.branco {
+    color: white;
 }
 
 .nav-link {
@@ -29,11 +41,19 @@ nav {
 }
 
 .frase {
-    color: #D4AF37;
+    color: #dfba42c0;
     background-color: rgba(0, 0, 0, 0.301);
     padding: 10px;
     border-radius: 30px;
     font-size: 50px;
+}
+
+h2 {
+    color: #D4AF37;
+}
+
+h5 {
+    color: #ecc543;
 }
 
 @media (min-width: 800px) {
