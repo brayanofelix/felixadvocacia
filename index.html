@@ -42,14 +42,14 @@
     <main>
         <section class="section-banner">
             <div class="container-fluid position-relative banner">
-                <h2 class="frase"><strong>Justiça para todos. <br> Expertise a seu favor.</strong></h2>
+                <h2 class="frase text-light"><strong>Justiça para todos. <br> Expertise a seu favor.</strong></h2>
             </div>
         </section>
 
         <section id="sobre-nos" class="min-vh-100 d-flex flex-column justify-content-center py-5">
             <div class="container">
-              <h2 class="text-center mb-2 mt-3">Sobre Félix Advocacia</h2>
-              <p class="lead text-justify mt-0 branco">
+              <h2 class="text-center mb-2 mt-0 titulo">Sobre Félix Advocacia</h2>
+              <p class="lead text-justify mt-5 branco">
                 No <strong>Félix Advocacia</strong>, nossa missão é oferecer soluções jurídicas eficientes com um compromisso inabalável com a ética e a transparência. Com mais de 15 anos de experiência no mercado, nos destacamos pelo cuidado em entender as necessidades de cada cliente e oferecer um atendimento personalizado.
               </p>
               <p class="lead text-justify branco">
@@ -63,11 +63,11 @@
           
           <section id="servicos" class="min-vh-100 d-flex flex-column justify-content-center py-5">
             <div class="container">
-              <h2 class="text-center mb-4">Nossos Serviços</h2>
+              <h2 class="text-center mb-5 titulo">Nossos Serviços</h2>
               <div class="row g-4">
                 <div class="col-md-4">
                   <div class="card text-center">
-                    <img src="imagens/civil.png" class="card-img-top h-100" alt="Direito Civil">
+                    <img src="imagens/civil.png" class="card-img-top" alt="Direito Civil">
                     <div class="card-body">
                       <i class="bi bi-briefcase-fill fs-1 mb-3"></i>
                       <h5 class="card-title">Direito Civil</h5>
@@ -75,10 +75,10 @@
                     </div>
                   </div>
                 </div>
-                
+
                 <div class="col-md-4">
                   <div class="card text-center">
-                    <img src="imagens/trabalhista.png" class="card-img-top h-100" alt="Direito Trabalhista">
+                    <img src="imagens/trabalhista.png" class="card-img-top" alt="Direito Trabalhista">
                     <div class="card-body">
                       <i class="bi bi-person-fill fs-1 mb-3"></i>
                       <h5 class="card-title">Direito Trabalhista</h5>
@@ -86,14 +86,14 @@
                     </div>
                   </div>
                 </div>
-                
+          
                 <div class="col-md-4">
                   <div class="card text-center">
-                    <img src="imagens/contrato.png" class="card-img-top h-100" alt="Contratos">
+                    <img src="imagens/contrato.png" class="card-img-top" alt="Contratos">
                     <div class="card-body">
                       <i class="bi bi-file-earmark-text-fill fs-1 mb-3"></i>
                       <h5 class="card-title">Contratos</h5>
-                      <p class="card-text">Elaboração, revisão e negociação de contratos comerciais e privados para proteger seus interesses.</p>
+                      <p class="card-text">Elaboração, revisão e negociação de contratos comerciais e privados para proteger seus interesses e sua empresa.</p>
                     </div>
                   </div>
                 </div>
@@ -103,7 +103,7 @@
             
           <section id="equipe" class="min-vh-100 d-flex flex-column justify-content-center py-5">
             <div class="container">
-              <h2 class="text-center mb-4">Nossa Equipe</h2>
+              <h2 class="text-center mb-5 titulo">Nossa Equipe</h2>
               <div class="row g-4">
                 <div class="col-md-4">
                   <div class="card text-center">
@@ -117,20 +117,20 @@
                 
                 <div class="col-md-4">
                   <div class="card text-center">
-                    <img src="imagens/mariafelix.png" class="card-img-top" alt="Advogado 2">
+                    <img src="imagens/carlosfelix.png" class="card-img-top" alt="Advogado 2">
                     <div class="card-body">
-                      <h5 class="card-title">Maria Félix</h5>
-                      <p class="card-text">Especialista em Direito Empresarial e Contratos, Maria traz uma visão estratégica e detalhista para a resolução de conflitos e elaboração de documentos jurídicos essenciais para negócios.</p>
+                      <h5 class="card-title">José Félix</h5>
+                      <p class="card-text">José é um advogado experiente em Direito Trabalhista, especializado em defesa de interesses e consultoria estratégica para empresas e trabalhadores.</p>
                     </div>
                   </div>
                 </div>
-                
+
                 <div class="col-md-4">
                   <div class="card text-center">
-                    <img src="imagens/carlosfelix.png" class="card-img-top" alt="Advogado 3">
+                    <img src="imagens/mariafelix.png" class="card-img-top" alt="Advogado 3">
                     <div class="card-body">
-                      <h5 class="card-title">Carlos Félix</h5>
-                      <p class="card-text">Carlos é um experiente advogado na área de Direito Penal, com uma vasta experiência em defesas judiciais e consultoria estratégica para situações delicadas.</p>
+                      <h5 class="card-title">Maria Félix</h5>
+                      <p class="card-text">Especialista em Direito Empresarial e Contratos, Maria traz uma visão estratégica e detalhista para a resolução de conflitos e elaboração de documentos jurídicos essenciais para negócios.</p>
                     </div>
                   </div>
                 </div>
@@ -140,11 +140,11 @@
           
           <section id="contato" class="py-5">
             <div class="container">
-              <h2 class="text-center mb-4">Contato</h2>
+              <h2 class="text-center mb-4 titulo">Contato</h2>
               
               <div class="row">
                 <div class="col-md-8 mx-auto">
-                  <form>
+                  <form id="formContato">
                     <div class="mb-3">
                       <label for="nome" class="form-label">Nome</label>
                       <input type="text" class="form-control" id="nome" placeholder="Seu nome">
@@ -164,14 +164,14 @@
               
               <div class="text-center mt-4">
                 <h5>Siga-nos nas redes sociais</h5>
-                <a href="https://facebook.com" target="_blank" class="btn btn-outline-primary me-2">
+                <a href="" target="_blank" class="btn btn-outline-primary me-2">
                   <i class="bi bi-facebook"></i> Facebook
                 </a>
-                <a href="https://twitter.com" target="_blank" class="btn btn-outline-info me-2">
+                <a href="" target="_blank" class="btn btn-outline-info me-2">
                   <i class="bi bi-twitter"></i> Twitter
                 </a>
-                <a href="https://linkedin.com" target="_blank" class="btn btn-outline-primary me-2">
-                  <i class="bi bi-linkedin"></i> LinkedIn
+                <a href="" target="_blank" class="btn btn-outline-danger me-2">
+                  <i class="fab bi-instagram"></i> Instagram
                 </a>
               </div>
           
@@ -191,5 +191,7 @@
             <a class="text-reset fw-bold" href="https://www.linkedin.com/in/brayan-f%C3%A9lix-a493a6255/" target="_blank">Brayan Félix</a>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
